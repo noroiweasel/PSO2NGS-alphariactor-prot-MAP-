@@ -36,6 +36,10 @@
 .et_pb_text_inner3 {
   background-color: #FFDBC9;
 }
+.bg_test {
+  width: 100%;
+  height:100%;
+}
 </style>
 
   
@@ -58,7 +62,7 @@
    
 <button id="show">表示</button>
 
-    
+  
 <div class="et_pb_module">
   <a href="#fuu" class='secList'>Section1</a>
 </div>
@@ -100,6 +104,9 @@
       y座標 :
     </div>
      <img src="alphaReactor.png" width='48px' id="main">
+       <div class="bg_test">
+       <img src="image0.png">
+     </div>
    
     <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
 
@@ -133,16 +140,16 @@ $(function () {
 	  if(x!="" && y!="" ){
 	  $('#main').offset({ top: y, left: x });
 		}else{
-	  $('img').hide();
+	  $('main').hide();
 	  }
 		
 	});
 	
 	$('#hidden').on('click', () => {
-        $('img').hide();
+        $('#main').hide();
     });
 	 $('#show').on('click', () => {
-        $('img').show();
+        $('#main').show();
     });
 });
 //# sourceURL=pen.js
