@@ -54,6 +54,11 @@
 
   <!-- List -->
 <p>同じリンクを 2 回クリックしてみて</p>
+<button id="hidden">非表示</button>
+   
+<button id="show">表示</button>
+
+    
 <div class="et_pb_module">
   <a href="#fuu" class='secList'>Section1</a>
 </div>
@@ -125,13 +130,20 @@ $(function () {
 	  document.getElementById('x').textContent = "x座標 : " + x;
 	  document.getElementById('y').textContent = "y座標 : " + y;
 	  
+	  if(x!="" && y!="" ){
 	  $('#main').offset({ top: y, left: x });
-		
+		}else{
+	  $('img').hide();
+	  }
 		
 	});
 	
-	
-	
+	$('#hidden').on('click', () => {
+        $('img').hide();
+    });
+	 $('#show').on('click', () => {
+        $('img').show();
+    });
 });
 //# sourceURL=pen.js
 
