@@ -1,0 +1,55 @@
+div {
+	font-weight: bold;
+}
+
+#alpha1{
+	z-index: 100;
+}
+#alpha2{
+	z-index: 100;
+}
+#alpha3{
+	z-index: 100;
+}
+#alpha4{
+	z-index: 100;
+}
+#alpha5{
+	z-index: 100;
+}
+#alpha6{
+	z-index: 100;
+}
+#alpha7{
+	z-index: 100;
+}
+#alpha8{
+	z-index: 100;
+}
+#alpha9{
+	z-index: 100;
+}
+#alpha10{
+	z-index: 100;
+}
+#alpha11{
+	z-index: 100;
+}
+#alpha12{
+	z-index: 100;
+}
+#alpha13{
+	z-index: 100;
+}
+#alpha14{
+	z-index: 100;
+}
+
+
+.map {
+	
+	position: relative;
+	top: 50px;
+	left: 50px;
+
+}
