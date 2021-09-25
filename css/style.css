@@ -105,8 +105,15 @@ button {
 
 }
 
-.sega{
+.team{
 	position: relative;
 	top:60px;
+	color:fuchsia;
+	font-size: 25px;
+	font-weight: bold;
+}
+.sega{
+	position: relative;
+	top:70px;
 	color: blue;
 }
