@@ -12,7 +12,11 @@ document.addEventListener('DOMContentLoaded',function(){
 	
 	//リセット
 	$(".reset").click(function() {
-		location.reload();
+		var result = window.confirm('reary?')
+		if( result ) {
+			location.reload();
+		}
+		
 	});
 
 	for(let i = 0; i < btns.length; i++){
@@ -30,8 +34,8 @@ document.addEventListener('DOMContentLoaded',function(){
 			/*$(".map").text("offset : X" + e.offsetX + " : Y" + e.offsetY);
 			$(".map").images(src="images/image0.png");
 			*/		
-			var x = e.pageX;
-			var y = e.pageY;
+				var x = e.pageX;
+				var y = e.pageY;
 						
 			/*
 			document.getElementById('x').textContent = "x座標 : " + x;
@@ -47,7 +51,7 @@ document.addEventListener('DOMContentLoaded',function(){
 							console.log(alphas.src);
 							$(alphas).offset({ top: y, left: x});
 							console.log(btns.target.className);
-							i = null;
+							
 							break;
 						
 						case 1:
@@ -150,6 +154,7 @@ document.addEventListener('DOMContentLoaded',function(){
 				
 		},false);
 
+		
 
 	}
 },false);
