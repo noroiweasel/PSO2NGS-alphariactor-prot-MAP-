@@ -4,10 +4,10 @@ document.oncontextmenu = function () {return false;}
 document.addEventListener('DOMContentLoaded',function(){
 
 	const btns = document.getElementsByTagName('button');
-	const alphas = document.images;
+	/*const alphas = document.images;*/
 
 	console.log(btns);
-	console.log(alphas);
+	/*console.log(alphas);*/
 	
 	
 	//リセット
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded',function(){
 			
 			//赤のBOX内のクリック位置の座標を取得
 			$(".map").click(function(e) {
-			
+				
 			/*$(".map").text("offset : X" + e.offsetX + " : Y" + e.offsetY);
 			$(".map").images(src="images/image0.png");
 			*/		
@@ -50,15 +50,16 @@ document.addEventListener('DOMContentLoaded',function(){
 							var alphas = document.getElementById('alpha1');
 							console.log(alphas.src);
 							$(alphas).offset({ top: y, left: x});
-							console.log(btns.target.className);
-							
+							//console.log(btns.target.className);
+							i=null;
 							break;
 						
 						case 1:
 							var alphas = document.getElementById('alpha2');
-							console.log(btns.target.className);
+							//console.log(btns.target.className);
 							$(alphas).offset({ top: y, left: x});
-							i = null;
+							console.log(i);
+							i=null;
 							break;
 
 						case 2:
@@ -145,7 +146,9 @@ document.addEventListener('DOMContentLoaded',function(){
 							i=null;
 							break;
 
-						
+						default:
+							i=null;
+							break;
 					}
 				
 				
