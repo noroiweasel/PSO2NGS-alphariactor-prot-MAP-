@@ -1,55 +1,112 @@
+html{
+	background:aliceblue;
+}
+h1 {
+	color:blue;
+	text-shadow: 1px 2px 3px #808080;
+}
+
 div {
 	font-weight: bold;
 }
 
-#alpha1{
-	z-index: 100;
+button {
+	width: 80px;
+	height: 40px;
+	font-size: 15px;
+	font-weight: bold;
+	background-color:cornflowerblue;
+	border-radius: 10px;
+	color: cornsilk;
 }
+
+.ealio{
+	color:crimson;
+	font-weight: bold;
+}
+
+#alpha1 {
+	z-index: 100;
+	position: relative;
+	left: 3%;
+}
+
 #alpha2{
 	z-index: 100;
+	position: relative;
+	left: 10%;
 }
 #alpha3{
 	z-index: 100;
+	position: relative;
+	left: 17%;
 }
 #alpha4{
 	z-index: 100;
+	position: relative;
+	left: 24%;
 }
 #alpha5{
 	z-index: 100;
+	position: relative;
+	left: 31%;
 }
 #alpha6{
 	z-index: 100;
+	position: relative;
+	left: 3%;
 }
 #alpha7{
 	z-index: 100;
+	position: relative;
+	left: 10%;
 }
 #alpha8{
 	z-index: 100;
+	position: relative;
+	left: 17%;
 }
 #alpha9{
 	z-index: 100;
+	position: relative;
+	left: 3%;
 }
 #alpha10{
 	z-index: 100;
+	position: relative;
+	left: 10%;
 }
 #alpha11{
 	z-index: 100;
+	position: relative;
+	left: 17%;
 }
 #alpha12{
 	z-index: 100;
+	position: relative;
+	left: 3%;
 }
 #alpha13{
 	z-index: 100;
+	position: relative;
+	left: 10%;
 }
 #alpha14{
 	z-index: 100;
+	position: relative;
+	left: 17%;
 }
 
 
 .map {
-	
 	position: relative;
 	top: 50px;
-	left: 50px;
+	
 
+}
+
+.sega{
+	position: relative;
+	top:60px;
+	color: blue;
 }
