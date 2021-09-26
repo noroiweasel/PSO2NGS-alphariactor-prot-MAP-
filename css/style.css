@@ -25,6 +25,28 @@ button {
 	font-weight: bold;
 }
 
+.usersguide{
+	position: relative;
+	top: 80px;
+	left: -170px;
+	background-color: cornflowerblue;
+	border: 5px solid orange;
+	border-radius: 20px;
+	width: 50%;
+	margin: 0 auto;
+	max-width: 500px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.usersguide p{
+	font-size: 1vw;
+	text-align: left;
+	color: white;
+	margin: 0; 
+	padding: 0;
+}
+
+
 #alpha1 {
 	z-index: 100;
 	position: relative;
@@ -107,10 +129,9 @@ button {
 
 .team{
 	position: relative;
-	top:60px;
+	top:70px;
 	color:fuchsia;
 	font-size: 25px;
-	font-weight: bold;
 }
 .sega{
 	position: relative;
