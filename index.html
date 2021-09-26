@@ -13,6 +13,7 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>  
   <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c52d7af6376f3d1c625d7e.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
   <script src="js/alphareactor.js"></script>
 
   <title>PSO2NGS alphaliactor prot MAP β版</title>
@@ -65,9 +66,10 @@
   <img src="images/alphareactor14.png" width='18px' id="alpha14">
   </div>
   
-  <div class="reset">
-  <button  >リセット</button>
-</div>
+  <div>
+  <button class="reset">リセット</button>
+  <!--<button id="ss">スクショ</button><a hidden href="" id="download"></a>-->
+  </div>
   <!--
   <div class="main">
     <div id="x" class="alert alert-primary" role="alert">
@@ -77,10 +79,13 @@
       y座標 :
     </div>
   -->
- 
-    <div class="map">
-      <img src="images/image0.png">
+
+    <div class="map" id="map">
+      <img src="images/image02.png">
     </div>
+ 
+ 
+  
 
     <div class="team">
       <p>#あるりあ情報発信チーム</p>
